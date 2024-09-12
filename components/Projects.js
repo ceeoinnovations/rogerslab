@@ -30,6 +30,9 @@ export default function Projects(projects){
                 <input type="radio" name="project-filter" id="prj-item6" value="undergraduate">
                 <label for="prj-item6">Undergraduate</label>
                 
+                <input type="radio" name="project-filter" id="prj-item7" value="Summer 2022">
+                <label for="prj-item7">Undergraduate</label>
+                
             </div>
             <div class="project-list">
                 ${ProjectItems(defaultProjects)}
